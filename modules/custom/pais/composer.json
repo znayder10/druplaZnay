@@ -1,0 +1,14 @@
+{
+  "name": "drupal/pais",
+  "type": "drupal-module",
+  "description": "Nombre del pais",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/pais",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/pais",
+    "source": "http://cgit.drupalcode.org/pais"
+  },
+  "require": { }
+}

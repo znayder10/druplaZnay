@@ -1,0 +1,5 @@
+name: 'Pais'
+type: module
+description: 'Nombre del pais'
+core: 8.x
+package: 'Custom'

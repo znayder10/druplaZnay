@@ -1,0 +1,14 @@
+{
+  "name": "drupal/new_email_formatter",
+  "type": "drupal-module",
+  "description": "Nuevo formato del correo",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/new_email_formatter",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/new_email_formatter",
+    "source": "http://cgit.drupalcode.org/new_email_formatter"
+  },
+  "require": { }
+}

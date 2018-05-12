@@ -1,0 +1,5 @@
+name: 'EntityReferenceView'
+type: module
+description: 'Enlace a la vista del tipo de contacto'
+core: 8.x
+package: 'Custom'

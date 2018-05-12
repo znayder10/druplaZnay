@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains new_email_formatter.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function new_email_formatter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the new_email_formatter module.
+    case 'help.page.new_email_formatter':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Nuevo formato del correo') . '</p>';
+      return $output;
+
+    default:
+  }
+}

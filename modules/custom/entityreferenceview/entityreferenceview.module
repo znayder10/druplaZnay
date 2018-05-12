@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains entityreferenceview.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function entityreferenceview_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the entityreferenceview module.
+    case 'help.page.entityreferenceview':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Enlace a la vista del tipo de contacto') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function entityreferenceview_theme() {
+  return [
+    'entityreferenceview' => [
+      'render element' => 'children',
+    ],
+  ];
+}
